@@ -12,6 +12,12 @@
 		C24717A31CFE652800EBD303 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24717A11CFE652800EBD303 /* Main.storyboard */; };
 		C24717A51CFE652800EBD303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C24717A41CFE652800EBD303 /* Assets.xcassets */; };
 		C24717A81CFE652800EBD303 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24717A61CFE652800EBD303 /* LaunchScreen.storyboard */; };
+		C24717B01CFE67B300EBD303 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24717AF1CFE67B300EBD303 /* RedViewController.swift */; };
+		C24717B21CFE67C500EBD303 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24717B11CFE67C500EBD303 /* BlueViewController.swift */; };
+		C24717B41CFE67D400EBD303 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24717B31CFE67D400EBD303 /* GreenViewController.swift */; };
+		C24717B61CFE6DCD00EBD303 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24717B51CFE6DCD00EBD303 /* YellowViewController.swift */; };
+		C24717B81CFE6DDC00EBD303 /* MintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24717B71CFE6DDC00EBD303 /* MintViewController.swift */; };
+		C24717BC1CFE6FF100EBD303 /* PurpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24717BB1CFE6FF100EBD303 /* PurpleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		C24717A41CFE652800EBD303 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C24717A71CFE652800EBD303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C24717A91CFE652800EBD303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C24717AF1CFE67B300EBD303 /* RedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		C24717B11CFE67C500EBD303 /* BlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		C24717B31CFE67D400EBD303 /* GreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		C24717B51CFE6DCD00EBD303 /* YellowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
+		C24717B71CFE6DDC00EBD303 /* MintViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MintViewController.swift; sourceTree = "<group>"; };
+		C24717BB1CFE6FF100EBD303 /* PurpleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurpleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +68,13 @@
 			children = (
 				C247179D1CFE652800EBD303 /* AppDelegate.swift */,
 				C247179F1CFE652800EBD303 /* ViewController.swift */,
+				C24717AF1CFE67B300EBD303 /* RedViewController.swift */,
+				C24717B31CFE67D400EBD303 /* GreenViewController.swift */,
+				C24717B11CFE67C500EBD303 /* BlueViewController.swift */,
 				C24717A11CFE652800EBD303 /* Main.storyboard */,
+				C24717B51CFE6DCD00EBD303 /* YellowViewController.swift */,
+				C24717B71CFE6DDC00EBD303 /* MintViewController.swift */,
+				C24717BB1CFE6FF100EBD303 /* PurpleViewController.swift */,
 				C24717A41CFE652800EBD303 /* Assets.xcassets */,
 				C24717A61CFE652800EBD303 /* LaunchScreen.storyboard */,
 				C24717A91CFE652800EBD303 /* Info.plist */,
@@ -136,7 +154,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C24717A01CFE652800EBD303 /* ViewController.swift in Sources */,
+				C24717B81CFE6DDC00EBD303 /* MintViewController.swift in Sources */,
+				C24717B01CFE67B300EBD303 /* RedViewController.swift in Sources */,
+				C24717B21CFE67C500EBD303 /* BlueViewController.swift in Sources */,
+				C24717BC1CFE6FF100EBD303 /* PurpleViewController.swift in Sources */,
 				C247179E1CFE652800EBD303 /* AppDelegate.swift in Sources */,
+				C24717B61CFE6DCD00EBD303 /* YellowViewController.swift in Sources */,
+				C24717B41CFE67D400EBD303 /* GreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

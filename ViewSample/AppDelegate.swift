@@ -8,14 +8,19 @@
 
 import UIKit
 
+// AppDelegat에서 생성한 property는 모든 View에서 Read가능
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var window: UIWindow?
-
+    var window: UIWindow? // 첫번째 화면 정보
+    var station:String? //
+    var stations:[String]?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        station = "삼성역"
+        stations = ["시청", "을지로입구", "을지로3가"]
         return true
     }
 
